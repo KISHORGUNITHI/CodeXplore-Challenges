@@ -31,8 +31,4 @@ if(age<18 or age>60):
 if(isName and isEmail and isNumber and isAge):
     print("User Profile is VALID");
 else:
-<<<<<<< HEAD
     print("User Profile is INVALID");
-=======
-    print("User Profile is INVALID");
->>>>>>> a3d269f222c1d9ad6b84ee82d0a1e4ea78a4c26d
