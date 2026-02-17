@@ -6,7 +6,7 @@ for i in range(n):
     weight=int(input(f"Enter the weight of package "+str(i+1)+" :"))
     weights[i]=weight;
 
-# weights classification 
+# Weights Classification 
 
 invalid_entries=[]
 overload=[]
@@ -26,3 +26,13 @@ for weight in weights:
     else:
         overload.append(weight)
 
+# Applying PLI
+# My_Name=KISHORGUNITHI
+# L=13
+# L%3=1
+
+print(weights)
+
+for vl_weight in very_light:
+    if vl_weight in weights:
+        weights.remove(vl_weight)
