@@ -1,5 +1,3 @@
-
-
 durations=[]
 
 # here the termination is in user's hand
